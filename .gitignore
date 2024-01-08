@@ -1,0 +1,29 @@
+# assets里只留 /less/freepbx/
+/*
+!/assets
+assets/*
+!/assets/less
+assets/less/*
+!/assets/less/freepbx
+
+!/i18n
+i18n/*
+!/i18n/zh_CN
+
+!/modules
+modules/*
+!/modules/core
+modules/core/*
+!page.*.php
+# 字母n打头的本身还没有，放在目录里容易找到
+!/modules/new_*
+!/modules/qianlue_*
+!/modules/WP_*
+
+!config.php
+!/views
+!.gitignore
+!README.md
+
+# 自制取代脚本
+!WP_replace.sh
